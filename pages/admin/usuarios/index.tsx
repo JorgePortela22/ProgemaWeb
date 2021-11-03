@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Link from 'next/link'
 const index = () => {
     return (
         <div>
-            ESTOY PROBANDO 
+             <div> Pagima admin usuarios</div>
+             <Link href = '/' > 
+                <a> Ir al Home </a>
+             </Link>
+
         </div>
     )
 }
